@@ -14,7 +14,7 @@ int 	main(void)
 	int *******pt6 = &pt5;
 	int ********pt7 = &pt6;
 	int *********pt8 = &pt7;
-	printf("Before: %i\n");
+	printf("Before: %i\n", nb);
 	ft_ultimate_ft(pt8);
 	printf("After: %i\n", nb);
 	return (0);
